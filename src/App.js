@@ -47,11 +47,11 @@ function App() {
     }
   }
 
-  const showAlert = (show = false, type = '', msg = '') =>{
+  const showAlert = (show = false, type = '', msg = '') => {
     setAlert({show, type, msg})
   }
   const clearList = () => {
-    showAlert(true, 'danger', 'emplty list');
+    showAlert(true, 'danger', 'empty list');
     setList([])
   }
   const removeItem = (id) => {
